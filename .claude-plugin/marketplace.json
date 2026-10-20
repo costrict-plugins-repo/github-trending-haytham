@@ -1,0 +1,29 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "haytham",
+  "owner": {
+    "name": "Arslan Mehboob"
+  },
+  "metadata": {
+    "description": "Idea-to-MVP pipeline: from raw idea to implementation-ready OpenSpec"
+  },
+  "plugins": [
+    {
+      "name": "haytham",
+      "source": "./",
+      "description": "Idea-to-MVP pipeline: validate a startup idea, scope the MVP, design the architecture, and generate implementation-ready specs",
+      "version": "0.4.2",
+      "repository": "https://github.com/arslan70/haytham",
+      "license": "MIT",
+      "keywords": [
+        "startup",
+        "validation",
+        "specification",
+        "mvp",
+        "agents",
+        "openspec"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

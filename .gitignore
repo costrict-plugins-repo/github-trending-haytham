@@ -1,0 +1,38 @@
+# Haytham session output
+.haytham/
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MkDocs build output
+site/
+
+# IDE
+.idea/
+.vscode/
+
+# Python virtual environment (machine-local)
+.venv/
+
+# Claude Code (machine-local)
+.claude/
+
+# Git worktrees (machine-local)
+.worktrees/
+
+# GTM execution plan (private)
+docs/gtm-execution-plan.md
+
+# Eval results (generated, not checked in)
+evals/triggering/results/
+evals/quality/results/
+evals/e2e/results/
+__pycache__/
+
+# Experiment session logs (kept locally as raw evidence, not in git)
+docs/experiments/*.jsonl
